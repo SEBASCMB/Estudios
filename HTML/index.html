@@ -3,19 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Reales y constantes</title>
+    <title>Senten If</title>
   </head>
   <body>
     <script>
-      const PI = 3.14;
+      var edad = window.prompt("Ingresa tu edad: ");
+      if (edad <= 40) {
+        document.write("Eres muy joven.<br>Tienes mucho por que vivir.<br>");
+      } else {
+        document.write("Eres viejo.<br>");
+        document.write("Aun tienes mucho por que vivir.<br>");
+      }
 
-      var radio, diametro, area, perimetro;
-      radio = window.prompt("Ingresa el radio: ");
-      diametro = radio * 2;
-      area = radio * radio * PI;
-      perimetro = diametro * PI;
-
-      document.write("Area" + " " + area + " " + "Perimetro" + " " + perimetro);
+      document.write("Muchas gracias por contarnos tu edad.");
     </script>
   </body>
 </html>

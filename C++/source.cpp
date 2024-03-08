@@ -1,39 +1,14 @@
 #include <iostream>
+#include <string>
 
-class Rectangle
-{
-private:
-  int length;
-  int width;
+int main() {
+  char l1, l2, l3, l4;
 
-public:
-  Rectangle(int l, int w) : length(l), width(w) {}
+  std::cout << "Ingresa una palabra de 4 letras exactas: ";
+  std::cin >> l1;
+  std::cin >> l2;
+  std::cin >> l3;
+  std::cin >> l4;
 
-  int calculatePerimeter() const
-  {
-    return 2 * (length + width);
-  }
-
-  int calculateArea() const
-  {
-    return length * width;
-  }
-};
-
-int main()
-{
-  int length, width;
-
-  std::cout << "Ingresa el largo: ";
-  std::cin >> length;
-
-  std::cout << "Ingresa el ancho: ";
-  std::cin >> width;
-
-  Rectangle rectangle(length, width);
-
-  std::cout << "Perimetro = " << rectangle.calculatePerimeter() << std::endl;
-  std::cout << "Area = " << rectangle.calculateArea() << std::endl;
-
-  return 0;
+  std::cout << l1 << std::endl << l2 <<std::endl << l3 << std::endl << l4 << std::endl;
 }
