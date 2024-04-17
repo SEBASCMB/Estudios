@@ -20,17 +20,17 @@
     <h1>Filtros :: Filters</h1>
     <h4>En angularjs</h4>
     <p>
-      Su nombre: {{ nombre | uppercase }}
-      <br>
-      <input type="text" ng-model="nombre" class="form-control" placeholder="Ingrese su nombre">
-    </p>
-    <p>
       Seleccione el pais : {{ pais }}
       <select class="form-control" ng-model="pais">
         <option value="1">Costa rica</option>
         <option value="2">Mexico</option>
         <option value="3">Colombia</option>
       </select>
+    </p>
+    <p>
+      Seleccione una opciones que desea: {{  }}
+      <input type="checkbox" ng-model="opt1"> Opcion 1
+      <input type="checkbox" ng-model="opt2"> Opcion 2
     </p>
   </div>
 </body>
