@@ -1,5 +1,1 @@
-
-console.log('Hola Mundo');
-
-
-console.log(10);
+console.log("Hola mundo");
