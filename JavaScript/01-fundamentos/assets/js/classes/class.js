@@ -33,8 +33,13 @@ const SPIDERMAN = new Persona( 'Peter Parker', 'Spiderman', 'Soy tu amigable vec
 const IRONMAN   = new Persona( 'Tony Stark', 'Ironman', 'Yo soy ironman')
 
 SPIDERMAN.miFrase();
+IRONMAN.miFrase();
 
 SPIDERMAN.setComidaFavortia = 'El pie de cereza de la tia May'
+IRONMAN.setComidaFavortia = 'El queso con avellanas'
 
 console.log( SPIDERMAN.getComidaFavorita );
 console.log( SPIDERMAN );
+
+console.log( IRONMAN.getComidaFavorita );
+console.log( IRONMAN );
